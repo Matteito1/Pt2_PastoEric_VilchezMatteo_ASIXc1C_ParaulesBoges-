@@ -6,7 +6,6 @@
     La seva funcionalitat és obtenir les dades, processar-les per a obtenir les “paraules boges”
     i finalment mostrar-les per pantalla
 """
-import crazy_words
 
 import crazy_words
 
