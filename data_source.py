@@ -8,10 +8,14 @@
 """
 import crazy_words
 
-def frase():
-    try:
-        frase = input("Introduce el texto que quieres desordenar: ")
-        frase_ordenada = frase.split()
-        return frase_ordenada, frase
-    except:
-        print("Error - Lo que has introducido es incorrecto")
+def getDataFromKeyboard():
+    crazy_words.Texto_Ordenado, crazy_words.introduirfrase = crazy_words.introduirfrase()
+    crazy_words.palabras = crazy_words.separar()
+    crazy_words.frase_Desordenado = crazy_words.juntar()
+    crazy_words.resultado()
+
+def getDataFromChatGPT():
+    pass
+
+def getDataFromServer():
+    pass
